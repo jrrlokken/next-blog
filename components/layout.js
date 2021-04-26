@@ -24,6 +24,7 @@ export default function Layout({ children, home }) {
               priority
               src="/images/profile.jpg"
               className={utilStyles.borderCircle}
+              id="avatar"
               height={144}
               width={144}
               alt={name}
