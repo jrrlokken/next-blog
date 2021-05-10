@@ -1,19 +1,27 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
 
-const name = 'Joshua Lokken'
-export const siteTitle = 'Next.js Blog'
+const name = "Joshua Lokken";
+export const siteTitle = "Next.js Blog";
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Building a personal blog using Next.js" />
-        <meta property="og:image" content={`https://og-image.vercel.app/${encodeURI(siteTitle)}.png?theme=light&md=0&fontsize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`} />
+        <meta
+          name="description"
+          content="Building a personal blog using Next.js"
+        />
+        <meta
+          property="og:image"
+          content={`https://og-image.vercel.app/${encodeURI(
+            siteTitle
+          )}.png?theme=light&md=0&fontsize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+        />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
@@ -22,7 +30,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/bocce.jpg"
               className={utilStyles.borderCircle}
               id="avatar"
               height={144}
@@ -35,7 +43,7 @@ export default function Layout({ children, home }) {
           <>
             <Link href="/">
               <a>
-                <Image 
+                <Image
                   priority
                   src="/images/profile.jpg"
                   className={utilStyles.borderCircle}
@@ -62,5 +70,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }
