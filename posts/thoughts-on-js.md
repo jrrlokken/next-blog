@@ -1,8 +1,6 @@
 ---
-
 title: "Thoughts from a new JavaScript developer"
 date: "2021-04-26"
-
 ---
 
 Hello, it's nice to meet you.

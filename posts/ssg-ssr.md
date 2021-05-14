@@ -1,4 +1,4 @@
----
+l---
 title: 'When to Use Static Generation vs. Server-side Rendering'
 date: '2021-04-26'
 ---
