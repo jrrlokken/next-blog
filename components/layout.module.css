@@ -1,5 +1,6 @@
 .container {
-  max-width: 36rem;
+  /* max-width: 36rem; */
+  max-width: 80%;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
 }
@@ -11,7 +12,7 @@
   background-color: #0070f3;
   border-radius: 3px;
   padding-top: 2rem;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: rgba(255, 255, 255, 0.9);
 }
 
