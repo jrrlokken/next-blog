@@ -31,7 +31,7 @@ export default function Post({ postData }) {
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.lightItalic}>
           {/* <Date dateString={postData.date} /> */}
-          {date}
+          {postData.date}
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
