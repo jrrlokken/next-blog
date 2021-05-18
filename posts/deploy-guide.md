@@ -1,6 +1,6 @@
 ---
-title: "Deployment Guide"
-date: "2021-05-18"
+title: 'Deployment Guide'
+date: '2021-05-18'
 ---
 
 Prerequisites:
